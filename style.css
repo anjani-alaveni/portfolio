@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 nav a.active {
-    color: #8b5cf6;
+    color: #98a4e6;
     font-weight: bold;
 }
 
@@ -262,13 +262,14 @@ nav a.active {
 }
 
 .project-card a {
-
+    color: #17092cc4;
     text-decoration: none;
     margin-right: 15px;
 }
 
 .project-card a:hover {
-    color: #69f2a7e6
+    color: #250d3e;
+    transition: 0.2ms;
 }
 
 .dark .project-card {
