@@ -512,12 +512,14 @@ button:hover {
     html,
     body {
         width: 100%;
+        max-width: 100%;
         overflow-x: hidden;
     }
 
     /* General spacing */
     section {
         padding: 30px 5%;
+        box-sizing: border-box;
     }
 
     h1 {
@@ -606,15 +608,18 @@ button:hover {
     }
 
     .skills {
+        display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         gap: 20px;
+        box-sizing: border-box;
     }
 
     .skills-card {
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
+        box-sizing: border-box;
         padding: 20px;
     }
 
@@ -646,9 +651,11 @@ button:hover {
     }
 
     .certifications {
+        display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         gap: 20px;
+        box-sizing: border-box;
     }
 
     .certification-card {
